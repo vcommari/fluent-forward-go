@@ -257,18 +257,6 @@ func (c *Client) Handshake() error {
 		return err
 	}
 
-	var pong protocol.Pong
-
-	err = pong.DecodeMsg(r)
-	if err != nil {
-		return err
-	}
-
-	if err := protocol.ValidatePongDigest(&pong, c.AuthInfo.SharedKey,
-		helo.Options.Nonce, salt); err != nil {
-		return err
-	}
-
 	c.session.TransportPhase = true
 
 	return nil
