@@ -9,7 +9,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/IBM/fluent-forward-go/fluent/protocol"
+	"github.com/vcommari/fluent-forward-go/fluent/protocol"
 
 	"github.com/tinylib/msgp/msgp"
 )

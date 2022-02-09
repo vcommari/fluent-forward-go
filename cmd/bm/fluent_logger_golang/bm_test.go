@@ -1,12 +1,12 @@
 package main
 
-//go test -benchmem -run=^$ -bench ^Benchmark.*$ github.com/IBM/fluent-forward-go/cmd/bm/fluent_logger_golang
+//go test -benchmem -run=^$ -bench ^Benchmark.*$ github.com/vcommari/fluent-forward-go/cmd/bm/fluent_logger_golang
 
 import (
 	"testing"
 	"time"
 
-	"github.com/IBM/fluent-forward-go/cmd/bm"
+	"github.com/vcommari/fluent-forward-go/cmd/bm"
 	"github.com/fluent/fluent-logger-golang/fluent"
 )
 

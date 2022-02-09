@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/IBM/fluent-forward-go/fluent/client/ws"
+	"github.com/vcommari/fluent-forward-go/fluent/client/ws"
 	"github.com/gorilla/mux"
 	"github.com/gorilla/websocket"
 )

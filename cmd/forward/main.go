@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/IBM/fluent-forward-go/fluent/client"
-	"github.com/IBM/fluent-forward-go/fluent/protocol"
+	"github.com/vcommari/fluent-forward-go/fluent/client"
+	"github.com/vcommari/fluent-forward-go/fluent/protocol"
 )
 
 var (

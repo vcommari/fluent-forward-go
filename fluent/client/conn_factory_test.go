@@ -9,7 +9,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/IBM/fluent-forward-go/fluent/client"
+	. "github.com/vcommari/fluent-forward-go/fluent/client"
 )
 
 var _ = Describe("ConnFactory", func() {
